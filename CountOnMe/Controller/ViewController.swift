@@ -53,6 +53,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func reset() {
+        Calculator.reset()
+        updateCalculationDisplay()
+    }
     
     // MARK: - Methods
     private func updateCalculationDisplay() {

@@ -63,7 +63,13 @@ class Calculator {
         clear()
     }
     
-    static func clear() {
+    static func reset() {
+        calculationString = ""
+        enteredNumbers = [String()]
+        enteredOperators = [.plus]
+    }
+    
+    private static func clear() {
         enteredNumbers = [String()]
         enteredOperators = [.plus]
     }
