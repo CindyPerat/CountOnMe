@@ -65,8 +65,7 @@ class Calculator {
     
     static func reset() {
         calculationString = ""
-        enteredNumbers = [String()]
-        enteredOperators = [.plus]
+        clear()
     }
     
     private static func clear() {
